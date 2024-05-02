@@ -9,7 +9,7 @@
     <title>FASHION VIEW</title>
     <meta name="Description" content="The Ultimate Fashion Website">
     <link rel="icon" type="image/x-icon" href="homepage-images/1-removebg-preview (1).png">
-    <link rel="stylesheet" href="fashion.css">
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
@@ -177,29 +177,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/fashion.js"></script>
-    <script>
-        let arr = ["homepage-images/catban-020230630115529.webp", "homepage-images/catban-320230729113349.webp", "homepage-images/catban-120230729114515.webp", "homepage-images/catban-120230803115418.webp", "homepage-images/catban-120230602125221.webp"]
-        let box = document.querySelector("#box");
-        let boxImage = document.querySelector("#boxImage");
-
-        console.log("runniigg");
-        boxImage.setAttribute("src", arr[0]);
-
-        let i = 0;
-        let slider = () => {
-
-
-            if (i == 4) {
-                i = -1;
-            }
-            i++;
-            boxImage.setAttribute("src", arr[i]);
-            console.log(i);
-        }
-
-        // slider();
-        setInterval(slider, 3000);
+    <!-- <script src="/fashion.js"></script> -->
+    <script src="app.js">
+        
     </script>
 </body>
 
