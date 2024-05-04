@@ -68,3 +68,12 @@ let searchbutton = () => {
     })
 }
 searchbutton();
+
+// $(function(){
+//     $(menNav).trigger(function(){
+//         // $(searchButton).hide();
+//         $(searchButton).hide();
+//         // $(this).hide();
+//     })
+//     $("li").hide();
+// });
