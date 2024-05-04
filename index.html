@@ -16,25 +16,71 @@
 
 <body id="body" class="xyz">
     <nav>
-        <img src="homepage-images/fashion-view-high-resolution-logo-removebg-preview.png">
-        <!-- <p><a href="">fashion view</a></p> -->
-        <div class="NavDivs">
+        <div class="NavDivs1">
+            <img src="homepage-images/fashion-view-high-resolution-logo-removebg-preview.png">
+        </div>
+        <div class="NavDivs2">
             <ul>
-                <li><a href="#">Home</a></li>
-                <!-- <li><a href="#">Shop</a></li> -->
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"><i class='bx bx-user-circle' style="font-size: 30px; padding-top: 5px;"></i></a></li>
-                <li><a href="#"><i class='bx bx-cart' style="font-size: 30px; padding-top: 5px;" ></i></a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li id="womenNav"><a href="#">WOMEN</a></li>
+                <li id="menNav"><a href="#">MEN</a></li>
+                <li><a href="#">ABOUT</a></li>
             </ul>
+        </div>
+        <div class="NavDivs3">
+            <div href="#" style="border-right: 2px solid #404040;" id="searchButton"><i class='bx bxs-search'></i></a></div>
+            <div href="#"><i class='bx bxs-user'></i></a></div>
+            <div href="#" style="border-right: 2px solid #404040;"><i class='bx bxs-heart'></i></a></div>
+            <div href="#"><i class='bx bxs-shopping-bag'></i><a></div>
         </div>
     </nav>
 
     <main>
+        <div class="navlisthover none" id="womenNavHover">
+            <div>
+                <h1>OFFICIAL MERCHANDISE</h1>
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/friends_1.webp" alt="">
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/harry_potter_63vwsr8.webp" alt="">
+            </div>
+            
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/peanuts_hRmlBw8.webp" alt="">
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/garfield.webp" alt="">
+            </div>
+        </div>
 
-        <!-- <section class="section1" id="section1">
 
-        </section> -->
+        <div class="navlisthover none" id="menNavHover">
+            <div>
+                <h1>OFFICIAL MERCHANDISE</h1>
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/8_4.webp" alt="">
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/4_4_7VbzUGi.webp" alt="">
+            </div>
+            
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/7_5_MTiyYc2.webp" alt="">
+            </div>
+            <div style="cursor: pointer;">
+                <img src="/homepage-images/9_2_616I6EL.webp" alt="">
+            </div>
+        </div>
+
+        <div class="search" id="searchDiv">
+            <input type="text" placeholder="     Product search">
+            <button>></button>
+        </div>
+
 
         <div class="box" id="box">
             <img id="boxImage" src="" alt="">
@@ -179,7 +225,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="/fashion.js"></script> -->
     <script src="app.js">
-        
+
     </script>
 </body>
 

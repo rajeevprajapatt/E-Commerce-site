@@ -6,6 +6,7 @@
 body {
   width: 100%;
   background-color: rgb(248, 243, 243);
+  /* overflow: hidden; */
 }
 
 html {
@@ -40,43 +41,151 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0px;
-  background-color: whitesmoke;
-  z-index: 99;
   position: fixed;
+  z-index: 99;
   top: 0;
-  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: #404040;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  /* padding: 10px 0px;
+  background-color: whitesmoke;
+  
+  color:#a3865b;
+  
+  width: 100%;
+ */
 }
-nav img {
+.NavDivs1 {
+  width: 20%;
+  /* background-color: red; */
+}
+.NavDivs1 img {
+  width: 80%;
+  margin: 2% 10%;
+  object-fit: cover;
+}
+
+.NavDivs2 {
+  width: 55%;
+  /* background-color: rgb(195, 255, 0); */
+}
+nav .NavDivs2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+nav .NavDivs2 ul li {
+  list-style: none;
+  padding: 19px 15px;
+  font-size: 17px;
+  font-family: Gill Sans, sans-serif;
+  /* font-family: Montserrat; */
+  transition: 0.3s;
+  /* font-weight: bold; */
+}
+nav .NavDivs2 li a:hover {
+  color: #a3865b;
+  border-bottom: 2px solid black;
+}
+
+.NavDivs3 {
+  width: 25%;
+  /* background-color: rgb(0, 255, 149); */
+  display: flex;
+}
+.NavDivs3 div {
+  width: 13%;
+  margin: 0% 0%;
+}
+.NavDivs3 div:nth-child(1) {
+  margin-left: 10%;
+}
+.NavDivs3 div i {
+  font-size: 1.6rem;
+  padding: 15% 20%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.NavDivs3 div i:hover {
+  color: #a3865b;
+}
+
+.navlisthover{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  margin-top: 0vw;
+  justify-content: start;
+  align-items: center;
+  font-family: Gill Sans, sans-serif;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  /* transition: 2s; */
+  /* display: none; */
+}
+.none{
+  display: none;
+}
+.navlisthover div{
+  /* height: 80%; */
+  width: 17%;
+  margin: 1% 1%;
+  /* background-color: blue; */
+  transition: .3s;
+  
+}
+.navlisthover div:hover{
+  transform: scale(1.05);
+}
+.navlisthover div img{
+  width: 100%;
+  height: 17vw;
+  object-fit: initial;
+}
+
+.search{
+  position: absolute;
+  /* width: 20vw; */
+  background-color: white;
+  display: flex;
+  left: 75%;
+  top: -10%;
+}
+.search input{
+  width: 20vw;
+  height: 2vw;
+  margin: 4% 0 4% 2%;
+  border-bottom: 1px solid black;
+}
+.search button{
+  width: 1.5vw;
+  height: 2vw;
+  /* margin-left: -4px; */
+  margin: 4% 2% 4% 0;
+  background-color: white;
+  cursor: pointer;
+}
+.searchpos{
+  top: 8%;
+}
+
+
+/* nav img {
   width: 15%;
   height: 10%;
-  /* height: 3.5vw; */
+   height: 3.5vw; 
   margin: -2% 0 -2% 4%;
-}
+} */
 /* nav p{
   font-size: 40px;
   padding: 0 4rem;
   font-family: Bradley Hand, cursive;
 } */
-
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-nav ul li {
-  list-style: none;
-  padding: 0px 20px;
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  transition: 0.3s;
-}
-nav ul a:hover {
-  color: #8b008b;
-}
 
 /* .section1 {
   background-image: url("fashion_view images/fashion_vies_home-PhotoRoom (1).png");
@@ -91,15 +200,13 @@ nav ul a:hover {
 } */
 
 .box {
-    margin-top: 3.7rem;
-    width: 100%;
-    height: auto;
-
+  margin-top: 3.7rem;
+  width: 100%;
+  height: auto;
 }
 
 .box img {
-    width: 100%;
-
+  width: 100%;
 }
 
 .Men_Section {
@@ -272,7 +379,6 @@ footer img {
 .col:nth-child(5) p {
   font-size: 18px;
 }
-
 
 .ATB-div {
   width: 100%;
