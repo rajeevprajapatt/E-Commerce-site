@@ -57,14 +57,21 @@ let hover = () =>{
     });
 }
 hover();
-
+let x = true;
 let searchbutton = () => {
     let searchButton = document.getElementById("searchButton");
     let searchDiv = document.getElementById("searchDiv");
 
+
     searchButton.addEventListener('click',()=>{
-        searchDiv.style.top = "8%";
-        console.log(searchDiv.style.top);
+        if(x == true){
+            searchDiv.style.top = "8%";
+            x = false;
+        }
+        else{
+            searchDiv.style.top = "-100%";
+            x = true;
+        }
     })
 }
 searchbutton();
@@ -77,3 +84,4 @@ searchbutton();
 //     })
 //     $("li").hide();
 // });
+

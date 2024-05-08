@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.loginDiv {
+  /* max-width: 1200px; */
+  /* background-color: red; */
+  width: 60%;
+  margin: 20px 20%;
+  display: flex;
+  /* background-image: url(login-page-images/958d132e3626a2a846d1adb1b2b78357.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.loginForm {
+  width: 50%;
+  /* background-color: rgba(236,230,214,255); */
+  /* background-color: green; */
+}
+.loginForm .login-avatar{
+  width: 20vw;
+  height: 20vw;
+  margin: 2vw 5vw;
+  border-radius: 50%;
+}
+
+.loginImage {
+  width: 50%;
+  /* background-color: grey; */
+  
+}
+
+.register_syntax {
+  font-size: 15px;
+  color: grey;
+  padding: 5px 10px;
+}
+
+.loginForm form label{
+  font-size: 1.3vw;
+  padding: 1vw 5vw;
+}
+
+.loginForm form input{
+  width: 20vw;
+  height: 2.5vw;
+  margin: 5px 4.5vw;
+  border-radius: 5px;
+  border: 1px solid rgb(207, 207, 207);
+  background-color: rgb(192, 212, 229);
+}
+.loginForm form button{
+  width: 15vw;
+  height: 2.5vw;
+  margin: .4vw 6.5vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginForm form a{
+  text-decoration: none;
+  color: grey;
+}
+.loginForm form p{
+  padding: .5vw 10vw;
+}
+

@@ -112,7 +112,7 @@ nav .NavDivs2 li a:hover {
   color: #a3865b;
 }
 
-.navlisthover{
+.navlisthover {
   width: 100%;
   /* background-color: red; */
   display: flex;
@@ -128,41 +128,41 @@ nav .NavDivs2 li a:hover {
   /* transition: 2s; */
   /* display: none; */
 }
-.none{
+.none {
   display: none;
 }
-.navlisthover div{
+.navlisthover div {
   /* height: 80%; */
   width: 17%;
   margin: 1% 1%;
   /* background-color: blue; */
-  transition: .3s;
-  
+  transition: 0.3s;
 }
-.navlisthover div:hover{
+.navlisthover div:hover {
   transform: scale(1.05);
 }
-.navlisthover div img{
+.navlisthover div img {
   width: 100%;
   height: 17vw;
   object-fit: initial;
 }
 
-.search{
+.search {
   position: absolute;
   /* width: 20vw; */
   background-color: white;
   display: flex;
   left: 75%;
   top: -10%;
+  transition: 0.5s;
 }
-.search input{
+.search input {
   width: 20vw;
   height: 2vw;
   margin: 4% 0 4% 2%;
   border-bottom: 1px solid black;
 }
-.search button{
+.search button {
   width: 1.5vw;
   height: 2vw;
   /* margin-left: -4px; */
@@ -170,10 +170,9 @@ nav .NavDivs2 li a:hover {
   background-color: white;
   cursor: pointer;
 }
-.searchpos{
+.searchpos {
   top: 8%;
 }
-
 
 /* nav img {
   width: 15%;
